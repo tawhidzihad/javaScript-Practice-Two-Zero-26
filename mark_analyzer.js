@@ -4,8 +4,8 @@ function markAnalyzer(totalSubjet){
     let total = 0;
 
     // Highest & Lowest Marks.
-    let highestMark = -Infinity;
-    let lowestMark = Infinity;
+    let highestMark = -Infinity;    // -infinity set the lowest value for temporary time  
+    let lowestMark = Infinity;      // infinity set the highest value for temporary time 
 
     // Highest & Lowest Subject 
     let highestSubject;
